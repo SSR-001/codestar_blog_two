@@ -7,5 +7,6 @@ class PostList(generic.ListView):
     # queryset = Post.objects.filter(author=4) 
     #reluctant to delete currently
     # queryset = Post.objects.all()
-    template_name = "post_list.html"
+    template_name = "blog/index.html"
+    paginate_by = 6
     queryset = Post.objects.filter(status=1)
