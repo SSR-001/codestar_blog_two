@@ -3,10 +3,12 @@ from django.views import generic
 from .models import Post
 # Create your views here.
 class PostList(generic.ListView):
-    #reluctant to delete currently
+    
+    #reluctant to delete currently:
     # queryset = Post.objects.filter(author=4) 
-    #reluctant to delete currently
+    #reluctant to delete currently:
     # queryset = Post.objects.all()
+    
     template_name = "blog/index.html"
     paginate_by = 6
     queryset = Post.objects.filter(status=1)
