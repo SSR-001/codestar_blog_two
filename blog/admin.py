@@ -15,3 +15,4 @@ class PostAdmin(SummernoteModelAdmin):
 
 
 admin.site.register(Comment)
+
