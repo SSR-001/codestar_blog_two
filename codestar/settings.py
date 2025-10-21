@@ -45,15 +45,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary_storage',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'crispy_forms',
     'crispy_bootstrap5',
-    'django', #THESE MIGHT BE IN THE WRONG ORDER, IF THAT MATTERS. cHECK THE CI SOURCE CODE.
+    'django', #THESE MIGHT BE IN THE WRONG ORDER, IF THAT MATTERS. CHECK THE CI SOURCE CODE.
     'blog',
     'django_summernote',
+    'cloudinary',
     'about',
 
 ]
