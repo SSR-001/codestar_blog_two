@@ -52,11 +52,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'crispy_forms',
     'crispy_bootstrap5',
-    'django', #THESE MIGHT BE IN THE WRONG ORDER, IF THAT MATTERS. CHECK THE CI SOURCE CODE.
-    'blog',
     'django_summernote',
     'cloudinary',
-    'about',
+    'blog',
+    'about'
 
 ]
 
